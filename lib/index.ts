@@ -1,5 +1,5 @@
-import { Client } from "./client/Client"
+import { Client } from "./client/Client";
 
 export = {
-  Client
-}
+  Client,
+};
