@@ -110,7 +110,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin
+     * @route /admin
      * 
      * @returns {Promise<JSON>} 
      * 
@@ -122,7 +122,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/import/citizens
+     * @route /admin/import/citizens
      * 
      * @returns {Promise<JSON>} 
      * 
@@ -134,7 +134,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/import/vehicles
+     * @route /admin/import/vehicles
      * 
      * @param {('GET' | 'POST')} method 
      * @param {({
@@ -169,7 +169,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/import/weapons
+     * @route /admin/import/weapons
      * 
      * @param {('GET' | 'POST')} method 
      * @param {({
@@ -201,7 +201,7 @@ export default class Client {
 
     /**
      * 
-     * /v1/admin/manage/businesses
+     * @route /admin/manage/businesses
      * 
      * @param {('GET' | 'POST' | 'DELETE')} method 
      * @param {({}
@@ -227,7 +227,7 @@ export default class Client {
     }
 
     /**
-     * @route /v1/admin/manage/citizens
+     * @route /admin/manage/citizens
      * 
      * @param {{
      *         includeAll?: boolean;
@@ -250,7 +250,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/manage/citizens/record-logs
+     * @route /admin/manage/citizens/record-logs
      * 
      * @returns {Promise<JSON>} 
      * 
@@ -262,7 +262,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/manage/citizens/{id}
+     * @route /admin/manage/citizens/{id}
      * 
      * @param {({
      *         id: string | discordId | steamId;
@@ -279,7 +279,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/manage/citizens/{id}
+     * @route /admin/manage/citizens/{id}
      * 
      * @param {{ id: string; body: string }} options 
      * @returns {Promise<JSON>} 
@@ -292,7 +292,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/manage/citizens/{id}
+     * @route /admin/manage/citizens/{id}
      * 
      * @param {{
      *         id: string;
@@ -311,7 +311,7 @@ export default class Client {
 
     /**
      * 
-     * @route /v1/admin/manage/citizens/record-logs/{id}
+     * @route /admin/manage/citizens/record-logs/{id}
      * 
      * @param {{
      *         id: string;
@@ -330,6 +330,14 @@ export default class Client {
         );
     }
 
+    /**
+     * 
+     * @route /admin/manage/custom-fields
+     * 
+     * @returns {Promise<JSON>} 
+     * 
+     * @memberOf Client
+     */
     public GetCustomFields(): Promise<JSON> {
       return this.AdminManageCustomFieldsController.GetCustomFieldsRoute();
     }
