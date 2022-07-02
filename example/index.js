@@ -1,4 +1,4 @@
-const {Client} = require('../dist/index')
+const { Client } = require("../dist/index");
 
 const c = new Client();
 
@@ -12,6 +12,6 @@ c.login({
 //   console.log(res);
 // });
 
-c.ImportVehicles('GET', {}).then(res => {
-  console.log(res)
-})
+c.ImportVehicles("GET", {}).then((res) => {
+  console.log(res);
+});
