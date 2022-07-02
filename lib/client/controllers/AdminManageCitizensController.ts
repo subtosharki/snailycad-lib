@@ -1,10 +1,7 @@
 import request from "request";
+import type { discordId, steamId } from "../../types";
 import { Client } from "../Client";
-
-export type discordId = string 
-export type steamId = string
-
-export class AdminManageCitizensController extends Client {
+export default class AdminManageCitizensController extends Client {
   constructor() {
     super();
   }

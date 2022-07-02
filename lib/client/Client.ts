@@ -1,11 +1,11 @@
 import request from "request";
-import { AdminController } from "./controllers/AdminController";
-import { ImportCitizensController } from "./controllers/ImportCitizensController";
-import { ImportVehiclesController } from "./controllers/ImportVehiclesController";
-import { ImportWeaponsController } from "./controllers/ImportWeaponsController";
-import { AdminManageBusinessesController } from "./controllers/AdminManageBusinessesController";
-import { AdminManageCitizensController } from "./controllers/AdminManageCitizensController";
-import type {discordId, steamId} from "./controllers/AdminManageCitizensController";
+import AdminController from "./controllers/AdminController";
+import ImportCitizensController from "./controllers/ImportCitizensController";
+import ImportVehiclesController from "./controllers/ImportVehiclesController";
+import ImportWeaponsController from "./controllers/ImportWeaponsController";
+import AdminManageBusinessesController from "./controllers/AdminManageBusinessesController";
+import AdminManageCitizensController from "./controllers/AdminManageCitizensController";
+import type {discordId, steamId} from "../types/index";
 export class Client {
   public url: string;
   public token: string;

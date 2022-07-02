@@ -1,6 +1,6 @@
 import request from "request";
 import { Client } from "../Client";
-export class ImportVehiclesController extends Client {
+export default class ImportVehiclesController extends Client {
   constructor() {
     super();
   }

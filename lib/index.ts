@@ -1,7 +1,2 @@
-import { Client } from "./client/Client";
-import * as Types from './types/index.d.ts'
-
-export = {
-  Client,
-  Types
-};
+export { Client } from "./client/Client";
+export * from './types/index'

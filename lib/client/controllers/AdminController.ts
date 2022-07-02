@@ -1,7 +1,7 @@
 import request from "request";
 import { Client } from "../Client";
 
-export class AdminController extends Client {
+export default class AdminController extends Client {
   constructor() {
     super();
   }

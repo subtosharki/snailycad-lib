@@ -1,4 +1,4 @@
-const { Client } = require("../dist/index");
+import { Client } from "../dist/index";
 
 const c = new Client();
 

@@ -1,7 +1,7 @@
 import { Client } from "../Client";
 import request from "request";
 
-export class AdminManageBusinessesController extends Client {
+export default class AdminManageBusinessesController extends Client {
   constructor() {
     super();
   }

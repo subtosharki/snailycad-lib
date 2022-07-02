@@ -1,6 +1,6 @@
 import { Client } from "../Client";
 import request from "request";
-export class ImportWeaponsController extends Client {
+export default class ImportWeaponsController extends Client {
   constructor() {
     super();
   }
