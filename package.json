@@ -1,29 +1,29 @@
 {
-  "name": "snailycad-lib",
-  "version": "1.0.0",
-  "description": "A library for the SnailyCAD API",
-  "main": "./dist/index.js",
-  "types": "lib/types/index.ts",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "watch": "tsc --watch",
-    "lint": "npx prettier --write ."
-  },
-  "repository": "git+https://github.com/subtosharki/snailycad-lib.git",
-  "keywords": [
-    "snailycad"
-  ],
-  "author": "subtosharki",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/subtosharki/snailycad-lib/issues"
-  },
-  "homepage": "https://github.com/subtosharki/snailycad-lib#readme",
-  "devDependencies": {
-    "@types/request": "^2.48.8",
-    "prettier": "^2.7.1",
-    "request": "^2.88.2"
-  }
+    "name": "snailycad-lib",
+    "version": "1.0.0",
+    "description": "A library for the SnailyCAD API",
+    "main": "./dist/index.js",
+    "types": "lib/types/index.ts",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "watch": "tsc --watch",
+        "lint": "npx prettier --write ."
+    },
+    "repository": "git+https://github.com/subtosharki/snailycad-lib.git",
+    "keywords": [
+        "snailycad"
+    ],
+    "author": "subtosharki",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/subtosharki/snailycad-lib/issues"
+    },
+    "homepage": "https://github.com/subtosharki/snailycad-lib#readme",
+    "devDependencies": {
+        "@types/request": "^2.48.8",
+        "prettier": "^2.7.1",
+        "request": "^2.88.2"
+    }
 }

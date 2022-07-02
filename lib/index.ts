@@ -1,2 +1,4 @@
-export { Client } from "./client/Client";
-export * from './types/index'
+import Client from './client/Client';
+
+export default Client
+export * from './types/index';
